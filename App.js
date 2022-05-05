@@ -6,9 +6,10 @@ import EventForm from './EventForm';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-const Stack = createStackNavigator();
 
 export default function App() {
+  const Stack = createStackNavigator();
+
   return (
     <View>
       <NavigationContainer>
